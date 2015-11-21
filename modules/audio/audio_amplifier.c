@@ -121,10 +121,7 @@ static int amp_module_open(const hw_module_t *module, const char *name,
     amp_dev->input_stream_start = amp_input_stream_start;
     amp_dev->output_stream_standby = amp_output_stream_standby;
     amp_dev->input_stream_standby = amp_input_stream_standby;
-<<<<<<< HEAD
-=======
     amp_dev->set_parameters = amp_set_parameters;
->>>>>>> cm/cm-12.1
 
     *device = (hw_device_t *) amp_dev;
 
